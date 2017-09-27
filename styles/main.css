@@ -1,0 +1,16 @@
+* {
+box-sizing: border-box;
+}
+
+#doodle {
+width: 598px;
+height: 210px;
+margin: 0px auto;
+position: relative;
+}
+
+#share_button {
+position: absolute;
+bottom: 20px;
+right: 15px;
+}
