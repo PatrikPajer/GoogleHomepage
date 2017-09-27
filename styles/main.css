@@ -1,5 +1,7 @@
 * {
 box-sizing: border-box;
+font-family: "Mukta", "Arial", sans-serif;
+font-size: 16px;
 }
 
 #doodle {
@@ -13,4 +15,43 @@ position: relative;
 position: absolute;
 bottom: 20px;
 right: 15px;
+}
+
+form {
+position: relative;
+width: 598px;
+height: 3em;
+margin: 1em auto 0 auto;
+}
+
+#search_bar {
+width: 598px;
+margin: 0 auto 1em auto;
+border-width: 3px;
+box-shadow: 2px;
+}
+
+#buttons {
+position: relative;
+width: 598px;
+}
+
+#googleit {
+position: absolute;
+left: 20%;
+width: 25%;
+}
+
+#feelinglucky {
+position: absolute;
+right: 20%;
+width: 25%;
+}
+
+#googleit, #feelinglucky {
+padding: 8px;
+background-color: hsl(0, 0%, 95%);
+border-radius: 2px;
+border: none;
+font-weight: 600;
 }
